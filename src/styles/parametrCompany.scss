@@ -1,0 +1,62 @@
+.parametrCompany {
+  background-size: cover;
+  background-repeat: repeat;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(https://designs-projects.ru/wp-content/webpc-passthru.php?src=https://designs-projects.ru/wp-content/uploads/2018/11/glagne-2-1.jpg&amp;nocache=1&quot;);
+  background-attachment: fixed;
+  min-width: 1519px;
+  left: 0px;
+  width: 1519px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .container {
+    width: 47%;
+    margin: 0 auto;
+    h2 {
+      font-weight: normal;
+      color: #ffffff;
+      margin-bottom: 35px;
+      font-size: 34px;
+      font-family: "Open Sans", sans-serif;
+      text-align: center;
+      padding-top: 50px;
+    }
+    .parametrCompanyItems {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .parametrCompanyItem {
+        width: 31%;
+        margin-bottom: 35px;
+        .parametrCompanyItemDetail {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+          margin-bottom: 17px;
+          img {
+            margin-right: 15px;
+            transition: 0.5s;
+          }
+          img:hover {
+            transform: scale(1.2);
+          }
+          h3 {
+            color: #ffffff;
+            font-size: 22px;
+            line-height: 1.2em;
+            font-family: "Open Sans", sans-serif;
+          }
+        }
+        p {
+          text-align: justify;
+          margin-bottom: 15px;
+          font-size: 15px;
+          font-family: "Open Sans", sans-serif;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

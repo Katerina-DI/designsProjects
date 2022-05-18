@@ -1,0 +1,59 @@
+.headerPage {
+  background-size: cover;
+  background-repeat: repeat;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("https://designs-projects.ru/wp-content/webpc-passthru.php?src=https://designs-projects.ru/wp-content/uploads/2018/11/glagne1.jpg&nocache=1");
+  background-attachment: fixed;
+  min-width: 1519px;
+  left: 0px;
+  width: 1519px;
+  .container {
+    width: 47%;
+    margin: 0 auto;
+    .headerInfo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: "Open Sans", sans-serif;
+      line-height: 1.65em;
+      h1 {
+        font-size: 34px;
+        color: white;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 30px;
+      }
+      span {
+        width: 100%;
+        height: 2px;
+        background: #ffffff;
+        margin-bottom: 30px;
+      }
+      p {
+        font-size: 16px;
+        color: #ffffff;
+        text-align: justify;
+      }
+      h2 {
+        color: #ffffff;
+        margin-top: 10px;
+        font-size: 34px;
+      }
+      .headerInfoProject {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        p {
+          font-size: 20px;
+          color: #ffffff;
+          text-align: left;
+          font-weight: 400;
+          font-style: normal;
+          margin-bottom: 15px;
+          width: 31%;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
